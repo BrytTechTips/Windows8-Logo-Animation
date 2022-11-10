@@ -1,0 +1,28 @@
+body{
+    background: #02a3f2;
+    animation: bgcolor 5s infinite linear;
+}
+ul{
+    margin: 200px auto;
+    list-style: none;
+    width: 500px;
+    transform: perspective(500px) rotateY(-20deg);
+}
+li{
+    width: 200px;
+    height: 200px;
+    background: white;
+    display: inline-table;
+    margin: 5px;
+    animation: logo 5s linear infinite;
+}
+@keyframes bgcolor{
+    50%{
+        background: white;
+    }
+}
+@keyframes logo{
+    50%{
+        background: #02a3f2;
+    }
+}
